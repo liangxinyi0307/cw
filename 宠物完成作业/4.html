@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name2="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color:deepskyblue;
+      font-size: large;
+      color:rgb(181, 235, 160);
+      font-weight: 600;
+    }
+    button {
+      background-color: rgb(255, 108, 50);
+      color: rgb(245, 233, 240);
+      position:absolute;
+      left:0px;
+      top: 225px;
+    }
+    /* .cat{
+      width: 355px;
+      height: 200px;
+      background-image: url("./images/cat.png");
+    } */
+    /* .cat2{
+      position:absolute;
+      left:660px;
+      top: 30px;
+      width: 299px;
+      height: 230px;
+      background-image: url("./images/maomi.png");
+    } */
+    /* .cheng{
+      position:absolute;
+      left:300px;
+      top: 28px;
+      width: 243px;
+      height: 150px;
+      background-image: url("./images/5674.png");
+    } */
+    .yell {
+      position: absolute;
+      padding-left: 10px;
+      top: 185px;
+      left: 300px;
+      width: 200px;
+      height: 20px;
+      line-height: 20px;
+      background-color:rgb(90, 86, 50);
+      border: 2px solid rgb(255, 255, 255);
+    }
+    .biankuang {
+      position: absolute;
+      padding-left: 10px;
+      top: 10px;
+      left: 300px;
+      width: 250px;
+      height: 20px;
+      line-height: 20px;
+      background-color:rgb(90, 86, 50);
+      border: 2px solid rgb(255, 255, 255);
+    }
+    .yell2 {
+      position: absolute;
+      padding-left: 10px;
+      top: 185px;
+      left: 900px;
+      width: 200px;
+      height: 20px;
+      line-height: 20px;
+      background-color:rgb(90, 86, 50);
+      border: 2px solid rgb(255, 255, 255);
+    }
+    .biankuang2 {
+      position: absolute;
+      padding-left: 10px;
+      top: 10px;
+      left: 900px;
+      width: 250px;
+      height: 20px;
+      line-height: 20px;
+      background-color:rgb(90, 86, 50);
+      border: 2px solid rgb(255, 255, 255);
+    }
+    /* .chat {
+      position: absolute;
+      padding-left: 10px;
+      top: 60px;
+      left: 300px;
+      width: 200px;
+      height: 20px;
+      line-height: 20px;
+      background-color:gold;
+      border: 2px solid black;
+    } */
+    /* .aa {
+      position: absolute;
+      padding-left: 10px;
+      top: 30px;
+      left: 900px;
+      width: 200px;
+      height: 20px;
+      line-height: 20px;
+      background-color:pink;
+      border: 2px solid black;
+    } */
+    .b1{
+        position:absolute;
+      left: 0px;
+      top: 250px;
+    }
+    .c1{
+     position:absolute;
+      left: 60px;
+      top: 250px;
+      width: 150px;
+      }
+    .d1{
+        position:absolute;
+      left: 220px;
+      top: 250px;
+    }
+    .e1{
+         position:absolute;
+      left:380px;
+      top: 250px;
+    }
+    .b{
+        position:absolute;
+      left: 660px;
+      top: 250px;
+    }
+    .c{
+     position:absolute;
+      left: 720px;
+      top: 250px;
+      width: 150px;
+      }
+    .d{
+        position:absolute;
+      left: 875px;
+      top: 250px;
+    }
+    .e{
+         position:absolute;
+      left:1030px;
+      top: 250px;
+    }
+    /* .bar {
+      width:150px;
+      height: 15px;
+      background-color: chartreuse;
+    } */
+    .status2{
+      position:absolute;
+      left:650px;
+      top: 225px;
+    }
+    .status{
+      position:absolute;
+      left:10px;
+      top: 225px;
+    }
+    /* #kkkk{
+      position: absolute;
+      top: 20px;
+      left: 0px;
+      width: 100px;
+      height: 30px;
+      line-height: 20px;
+      border-color: rgb(0, 0, 0);
+      background-color: rgb(66, 201, 25);
+    }
+    #kkkk2{
+      position: absolute;
+      top: 20px;
+      left: 1250px;
+      width: 100px;
+      height: 30px;
+      line-height: 20px;
+      border-color: aquamarine;
+      background-color: rgb(85, 255, 113);
+    } */
+    .img1{
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      left: 0px;top: 10px;
+      }
+    .img2{
+      width: 150px;
+      height:200px;
+      position: absolute;
+      left: 700px;top: 30px;
+      }
+      .test{  
+     width:450px;  
+     border:1px solid rgb(32, 141, 192);  
+     height:25px;  
+      } 
+      /* .test1{
+     width:450px;
+     border:1px solid rgb(233, 176, 233);
+     height:25px;
+    } */
+    .test2{
+   width:450px;
+   border:1px solid rgb(87, 187, 253);
+   height:25px;
+   }
+      /* #progress1{
+     background:rgb(255, 255, 255);
+     width: 100%;
+     height:25px;
+     line-height:25px; 
+     text-align:center;
+     } */
+
+    #progress{
+    background-color:rgb(50, 192, 109);
+    height:25px;
+    line-height:25px;
+    text-align:center;
+    width: 100%;
+    }
+   #progress2{
+   background-color:rgb(27, 228, 255);
+   height:25px;
+   line-height:25px;
+   text-align:center;
+   width: 100%;
+   }
+   .hello{
+     position: absolute;
+     top: 300px;
+   }
+   #progress3{
+    background-color:rgb(27, 228, 255);
+    height:25px;
+    line-height:25px;
+    text-align:center;
+    width: 100%;
+
+    position: absolute;
+    }
+   #progress4{
+   background-color:rgb(50, 192, 109);
+   height:25px;
+   line-height:25px;
+   text-align:center;
+   width: 100%;
+   }
+   .hello2{
+     position: absolute;
+     left: 650px;
+     top: 300px;
+   }
+   .test4{  
+     width:450px;  
+     border:1px solid rgb(104, 92, 211);  
+     height:25px;  
+      } 
+      /* .test1{
+     width:450px;
+     border:1px solid rgb(233, 176, 233);
+     height:25px;
+    } */
+    .test5{
+   width:450px;
+   border:1px solid rgb(151, 87, 253);
+   height:25px;
+   }
+  </style>
+</head>
+<body>
+  <div class="hello">
+  <div class ="test"> 
+    <div id="progress" ></div>
+  </div>
+  <!-- <div class ="test1"> 
+    <div id="progress1" ></div> 
+  </div> -->
+  <div class ="test2"> 
+    <div id="progress2" ></div> 
+    </div>
+  </div>
+  <div class="hello2">
+    <div class ="test4"> 
+      <div id="progress4" ></div>
+    </div>
+    <!-- <div class ="test1"> 
+      <div id="progress1" ></div> 
+    </div> -->
+    <div class ="test5"> 
+      <div id="progress3" ></div> 
+      </div>
+    </div>
+  <img src="images/dog2.png" id='pic'class="img1" >
+  <img src="images/dog3.jpg" id='pic2'class="img2" >
+  <!-- <div id="bar"class="bar"></div> -->
+  <div id="yell" class="yell"></div>
+  <div id="kuangkuang" class="biankuang"></div>
+  <!-- <div id="cheng" class="cheng"></div> -->
+  <!-- <div id="aa" class="aa"></div> -->
+ <div id="Main">
+  <div id="Img">
+  <div id="catPic" class="cat" ></div>
+  </div>
+</div>
+  <!-- <div id="catPic" class="cat2" ></div> -->
+  <div id="status"class="status"></div>
+  <div id="status2"class="status2"></div>
+  <!-- 。。。。。。 -->
+  <div id="yell2" class="yell2"></div>
+  <div id="kuangkuang2" class="biankuang2"></div>
+  <!-- <div id="cheng2" class="cheng2"></div> -->
+  <div id="aa2" class="aa2"></div>
+  <div id="catPic2" class="cat2" ></div>
+  <!-- <div id="ys" class="ys"> -->
+    <div id="xuetiao"class="xuetiao"></div>
+    <div id="kkkk"class="kkkk"></div>
+    <div id="xuetiao2"class="xuetiao2"></div>
+    <div id="kkkk2"class="kkkk2"></div>
+  <button onclick="cat.feed()"class="b1">喂它！</button>
+  <button onclick="cat.run()"class="c1">没事走两步！</button>
+  <button onclick="cat.resurrect()"class="d1">复活吧，我的小狗狗！</button>
+  <button onclick="cat.weigh()"class="e1">称一称重，十年少！</button>
+  <button onclick="cat2.feed2()"class="b">喂它！</button>
+  <button onclick="cat2.run2()"class="c">没事走两步！</button>
+  <button onclick="cat2.resurrect2()"class="d">复活吧，我的小狗狗！</button>
+  <button onclick="cat2.weigh2()"class="e">称一称重，十年少！</button>
+
+
+  
+  <script src="4.js"></script>
+</body>
+</html>
